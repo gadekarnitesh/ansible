@@ -1,0 +1,10 @@
+package com.nil.nse;
+
+public class NSEOpenIntersert {
+	private String date;
+	private String iSIN;
+	private String scripName;
+	private String nseSymbol;
+	private double mwlLimit;
+	private double openInterest;
+	private 	double limitForNextDay;

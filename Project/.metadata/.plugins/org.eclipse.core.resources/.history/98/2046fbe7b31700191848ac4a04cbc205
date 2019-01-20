@@ -1,0 +1,63 @@
+package com.nil.nse;
+
+public class NSEOpenIntersert {
+	String Date;
+	String ISIN;
+	String StringScrip_Name;
+	String NSE_Symbol;
+	double MWPL_Limit;
+	double Open_Interest;
+	double Limit_for_Next_Day;
+	public String getDate() {
+		return Date;
+	}
+	public void setDate(String date) {
+		Date = date;
+	}
+	public String getISIN() {
+		return ISIN;
+	}
+	public void setISIN(String iSIN) {
+		ISIN = iSIN;
+	}
+	public String getStringScrip_Name() {
+		return StringScrip_Name;
+	}
+	public void setStringScrip_Name(String stringScrip_Name) {
+		StringScrip_Name = stringScrip_Name;
+	}
+	public String getNSE_Symbol() {
+		return NSE_Symbol;
+	}
+	public void setNSE_Symbol(String nSE_Symbol) {
+		NSE_Symbol = nSE_Symbol;
+	}
+	public double getMWPL_Limit() {
+		return MWPL_Limit;
+	}
+	public void setMWPL_Limit(double mWPL_Limit) {
+		MWPL_Limit = mWPL_Limit;
+	}
+	public double getOpen_Interest() {
+		return Open_Interest;
+	}
+	public void setOpen_Interest(double open_Interest) {
+		Open_Interest = open_Interest;
+	}
+	public double getLimit_for_Next_Day() {
+		return Limit_for_Next_Day;
+	}
+	public void setLimit_for_Next_Day(double limit_for_Next_Day) {
+		Limit_for_Next_Day = limit_for_Next_Day;
+	}
+	@Override
+	public String toString() {
+		return "NSEOpenIntersert [Date=" + Date + ", ISIN=" + ISIN + ", StringScrip_Name=" + StringScrip_Name
+				+ ", NSE_Symbol=" + NSE_Symbol + ", MWPL_Limit=" + MWPL_Limit + ", Open_Interest=" + Open_Interest
+				+ ", Limit_for_Next_Day=" + Limit_for_Next_Day + "]";
+	}
+	
+	
+	
+
+}

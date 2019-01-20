@@ -1,0 +1,7 @@
+package com.nil.nse;
+
+import java.util.Comparator;
+
+public class ExhOpenIntrest implements Comparator<T> {
+
+}

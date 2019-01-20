@@ -1,0 +1,20 @@
+package com.nil.nse;
+
+import java.util.Comparator;
+
+import org.apache.poi.ss.formula.functions.T;
+
+public class ExhOpenIntrest implements Comparator<NSEOpenIntersert> {
+
+	@Override
+	public int compare(NSEOpenIntersert s1, NSEOpenIntersert s2) {
+		if(s1.getExhOpenIntrest()==s2.getExhOpenIntrest())  {
+			return 0;  
+			else if(s1.getExhOpenIntrest()>s2.getExhOpenIntrest())  
+			return 1;  
+			else  
+			return -1;  
+			}  
+	}
+
+}
